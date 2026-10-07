@@ -1,0 +1,29 @@
+{
+  "name": "upstart-project-interview",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node --disable-warning=ExperimentalWarning scripts/dev.ts",
+    "server": "node --disable-warning=ExperimentalWarning server/index.ts",
+    "client": "vite --config client/vite.config.ts",
+    "build": "vite build --config client/vite.config.ts",
+    "test": "node --disable-warning=ExperimentalWarning --test server/db.test.ts"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.2",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5"
+  }
+}
