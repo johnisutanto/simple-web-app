@@ -1,0 +1,8 @@
+{
+  // THIS FOLDER ONLY. Other Cursor windows are unaffected.
+  // Reload Window after opening, or language/Tab changes will not apply.
+  //
+  // Cursor Tab
+  "cursor.tabAutocompleteEnabled": false,
+  "editor.inlineSuggest.enabled": false
+}
